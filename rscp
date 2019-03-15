@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+
+#Usage remoteExec <host> <command>
+
+set timeout 10
+set sshUser har.sampathnarayanan
+set pass LdapAccessP@\$7
+spawn scp [lindex $argv 1] [lindex $sshUser]@[lindex $argv 0]:.
+
+expect "*?assword*" { send "[lindex $pass]\r" }
+
+expect "*$*" { send "[lindex exit]\r" }
+#exit
