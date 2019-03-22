@@ -1,6 +1,0 @@
-#!/bin/bash
-while read p; do
-{
-   ./rscp $p "$1"
-}
-done <List.txt
