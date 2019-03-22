@@ -3,8 +3,8 @@
 #Usage remoteExec <host> <command>
 
 set timeout 60
-set sshUser har.sampathnarayanan
-set pass LdapAccessP@\$7
+set sshUser <>
+set pass <>
 spawn ssh [lindex $sshUser]@[lindex $argv 0]
 
 expect "yes/no" { 
