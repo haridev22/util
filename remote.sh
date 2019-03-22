@@ -64,8 +64,8 @@ if [ ! -z $DEFAULT ]; then
 	exit
 fi
 
-SSH_USER=har.sampathnarayanan
-PASS=LdapAccessP@\$7
+SSH_USER=<>
+PASS=<>
 
 
 HOST_ARRAY=()
