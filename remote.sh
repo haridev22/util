@@ -103,7 +103,7 @@ if [ ! -z $DEFAULT ]; then
 fi
 
 SSH_USER=har.sampathnarayanan
-PASS=LdapAccessP@\$2
+PASS=pass
 
 
 HOST_ARRAY=()
